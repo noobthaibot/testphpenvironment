@@ -1,5 +1,5 @@
-<?php $isAdmin
-
+<?php $isAdmin = true;
+    define ("VERSION", 8);
 ?>
 
 
