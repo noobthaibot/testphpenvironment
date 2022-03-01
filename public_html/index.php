@@ -1,14 +1,40 @@
 <?php
 
+require __DIR__.'/../vendor/autoload.php';
+
 $categories = [
-         'Web Design',
-         'HTML',
-         'Freebies',
-         'JavaScript',
-         'CSS',
-         'Tutorials',
+    [
+        'id' => 1,
+        'name' => 'Web Design',
+    ],
+    [
+        'id' => 2,
+        'name' => 'HTML',
+    ],
+    [
+        'id' => 3,
+        'name' => 'Freebies',
+    ],
+    [
+        'id' => 4,
+        'name' => 'JavaScript',
+    ],
+    [
+        'id' => 5,
+        'name' => 'CSS',
+    ],
+    [
+        'id' => 6,
+        'name' => 'Tutorials',
+    ],
+
 ];
 
+$posts = [
+    [
+    ],
+
+];
 
 ?>
 
